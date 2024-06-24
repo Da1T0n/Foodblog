@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.classy-navbar {
+  background-color: #ffffff;
+  height: 70px;
+  padding: 0.5em 2em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-brand {
+  font-size: 26px;
+  font-weight: 500;
+  color: #565656;
+}
+
+.classynav ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center; /* Выравнивание пунктов меню по вертикали */
+}
+
+.classynav ul li {
+  margin-right: 20px;
+}
+
+.classynav ul li a {
+  text-decoration: none;
+  color: #232323;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 10px 15px;
+  transition: color 0.3s ease;
+}
+
+.classynav ul li a:hover {
+  color: #1abc9c;
+}
+
+.logout-btn {
+  background-color: #f44336;
+  color: #fff;
+  border-radius: 50px;
+  padding: 10px 20px;
+  margin-left: 20px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.logout-btn:hover,
+.logout-btn:focus {
+  background-color: #d32f2f;
+}
